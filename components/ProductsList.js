@@ -23,6 +23,12 @@ const getProducts = async () => {
 export default async function ProductsList() {
   const { products } = await getProducts();
 
+  let id = 1;
+
+products.forEach((product) => {
+  product.id = id++;
+});
+
   return (
     <>
       {products && products.map((p) => (
@@ -52,11 +58,11 @@ export default async function ProductsList() {
             </tr>
         </thead>
         <tbody>
-            <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+            <tr className="w bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                 <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 {p.name}
                 </th>
-                <td className="px-6 py-4">
+                <td className="px-6 py-4 mx-0">
                 {p.description}
                 </td>
                 
@@ -77,11 +83,11 @@ export default async function ProductsList() {
 </div>
       
           </div>
-          <div className='flex justify-between mt-3 gap-2'>
-            <DeleteButton id={p._id}/>
-            <Link href={`/editProduct/${p._id}`}>
+          <div className='flex  justify-between mt-3 gap-2'>
+          <Link href={`/editProduct/${p._id}`}>
               <HiPencilAlt size={24} className='bg-blue-200'/>
             </Link>
+            <DeleteButton id={p._id}/>
           </div>
         </div>
       ))}
