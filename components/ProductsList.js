@@ -6,8 +6,9 @@ import { HiPencilAlt } from 'react-icons/hi';
 
 const getProducts = async () => {
   try {
+
     const res = await fetch("http://localhost:3000/api/products", {
-      cache:'no-cache', 
+      cache:'no-store', 
     });
 
     if (!res.ok) {
@@ -31,7 +32,7 @@ products.forEach((product) => {
 
   return (
     <>
-      {products.map((p) => (
+      {products && products.map((p) => (
         <div key={p._id} className='flex justify-between border border-slate-300 my-3'>
           <div className='flex justify-between gap-6 ml-4 mt-3'>
           {p.id}
