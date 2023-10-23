@@ -13,7 +13,7 @@ Clone the repository using Git Bash:
 
 - git clone https://github.com/ykyadmas/Product-management-system.git
 
-- Navigate to the project directory
+Navigate to the project directory
 
 - cd Product-management-system
 
@@ -29,7 +29,7 @@ npm install
 
 - Copy the MongoDB connection key.
 
-- Create a .env file in the project directory and paste the MongoDB connection key. Replace crud with your 
+- in .env file(already existed in next.config.js) paste the MongoDB connection key. Replace crud with your 
 
 project name.
 
