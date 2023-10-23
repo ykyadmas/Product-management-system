@@ -40,21 +40,12 @@ To start the server, run the following command:
 - npm run dev
 
 
-#scerenshot of the project
-
-     
-    # Home Page
-
+# scerenshot of the project
+# Home Page
 ![Alt text](<Screenshot from 2023-10-23 03-33-52.png>)
    # Add Product Page
    ![Alt text](<Screenshot from 2023-10-23 03-34-22.png>)
-
-     # Edit Page: 
-
-
-
-     ![Alt text](<Screenshot from 2023-10-23 03-34-44.png>)
-
-         # Delete Product 
-         
-         ![Alt text](<Screenshot from 2023-10-23 03-35-17.png>)
+   # Edit Page: 
+![Alt text](<Screenshot from 2023-10-23 03-34-44.png>)
+ # Delete Product 
+![Alt text](<Screenshot from 2023-10-23 03-35-17.png>)
