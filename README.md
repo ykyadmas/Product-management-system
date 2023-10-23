@@ -1,4 +1,4 @@
-# Product Management System
+# Next js with MongoDB Product Management System
 This repository contains the code for a Product Management System. Follow the steps below to get started:
 
 #Prerequisites
