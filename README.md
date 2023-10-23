@@ -1,5 +1,5 @@
 # Product Management System
-# This repository contains the code for a Product Management System. Follow the steps below to get started:
+This repository contains the code for a Product Management System. Follow the steps below to get started:
 
 #Prerequisites
 - Git Bash
